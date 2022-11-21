@@ -27,14 +27,9 @@ class Solution {
 
         if(count[1] > 6){
             count[1] = 6;
-        }else if(count[1] <0){
-            count[1] = 1;
         }
 
-        if(count[0] < 0){
-            count[0] = 1;
-        }
-        else if(count[0]> 6){
+        if(count[0]> 6){
             count[0] = 6;
         }
         System.out.println(count[1]);
